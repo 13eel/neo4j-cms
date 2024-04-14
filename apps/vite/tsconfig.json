@@ -1,0 +1,15 @@
+{
+  "extends": "@acme/tsconfig/base.json",
+  "compilerOptions": {
+    // "useDefineForClassFields": true,
+    // "allowImportingTsExtensions": true,
+    "jsx": "react-jsx"
+
+    /* Linting */
+    // "noUnusedLocals": true,
+    // "noUnusedParameters": true,
+    // "noFallthroughCasesInSwitch": true
+  },
+  "include": ["src", "**/*.ts"],
+  "references": [{ "path": "./tsconfig.node.json" }]
+}

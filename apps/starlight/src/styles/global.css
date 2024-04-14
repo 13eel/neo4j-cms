@@ -1,0 +1,8 @@
+@import "tailwind";
+
+/* Only set variables needed */
+@layer base {
+  :root {
+    --radius: 0.5rem;
+  }
+}

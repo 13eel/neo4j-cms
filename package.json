@@ -1,0 +1,23 @@
+{
+  "name": "turbo-template",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*",
+    "tooling/*"
+  ],
+  "scripts": {
+    "build": "turbo build",
+    "clean": "git clean -xdf node_modules",
+    "clean:workspaces": "turbo clean",
+    "lint": "turbo lint",
+    "dev": "turbo dev",
+    "dev:astro": "turbo dev --filter=./apps/astrojs",
+    "dev:next": "turbo dev --filter=./apps/nextjs",
+    "dev:star": "turbo dev --filter=./apps/starlight",
+    "dev:t3": "turbo dev --filter=./apps/t3-app",
+    "dev:vite": "turbo dev --filter=./apps/vite"
+  },
+  "packageManager": "bun@1.0.33"
+}
