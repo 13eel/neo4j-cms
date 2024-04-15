@@ -1,9 +1,0 @@
-{
-  "extends": "@acme/tsconfig/base.json",
-  "compilerOptions": {
-    "composite": true,
-    "allowSyntheticDefaultImports": true,
-    "noEmit": false
-  },
-  "include": ["vite.config.ts"]
-}
