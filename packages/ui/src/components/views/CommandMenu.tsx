@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import {
   CommandDialog,
   CommandEmpty,
@@ -8,12 +9,11 @@ import {
   CommandItem,
   CommandList,
 } from "@ui";
-import React from "react";
 
 export function CommandMenu() {
-  const [open, setOpen] = React.useState(false);
+  const [open, setOpen] = useState(false);
 
-  React.useEffect(() => {
+  useEffect(() => {
     const down = (e: KeyboardEvent) => {
       if (e.key === "k" && (e.metaKey || e.ctrlKey)) {
         e.preventDefault();

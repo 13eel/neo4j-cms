@@ -17,7 +17,8 @@
     "dev:next": "turbo dev --filter=./apps/nextjs",
     "dev:star": "turbo dev --filter=./apps/starlight",
     "dev:t3": "turbo dev --filter=./apps/t3-app",
-    "dev:vite": "turbo dev --filter=./apps/vite"
+    "dev:vite": "turbo dev --filter=./apps/vite",
+    "ui:add": "turbo ui:add"
   },
   "packageManager": "bun@1.0.33"
 }
