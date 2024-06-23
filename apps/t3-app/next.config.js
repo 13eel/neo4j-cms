@@ -9,7 +9,7 @@ await import("./src/env.js");
 /** @type {import("next").NextConfig} */
 const config = {
   reactStrictMode: true,
-  transpilePackages: ["@acme/ui"],
+  transpilePackages: ["@package/ui"],
 };
 export default MillionLint.next({
   rsc: true,

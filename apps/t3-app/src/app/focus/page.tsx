@@ -1,6 +1,6 @@
 import { unstable_noStore as noStore } from "next/cache";
 
-import { NodeForm } from "@acme/graph-cms";
+import { NodeForm } from "~/ui";
 
 export default async function FocusPage() {
   noStore();

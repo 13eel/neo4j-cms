@@ -17,7 +17,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@acme/ui": "workspace:*",
+    "@package/ui": "workspace:*",
     "@neo4j/cypher-builder": "^1.15.0",
     "neo4j-driver": "^5.19.0"
   },

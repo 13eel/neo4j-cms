@@ -1,6 +1,7 @@
-import { Button } from "@ui/index";
 import { unstable_noStore as noStore } from "next/cache";
 import Link from "next/link";
+
+import { Button } from "@package/ui";
 
 import { CreatePost } from "~/app/_components/create-post";
 import { getServerAuthSession } from "~/server/auth";

@@ -1,4 +1,5 @@
 {
+  "css.customData": [".vscode/tailwind.json"],
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit"
   },
@@ -23,5 +24,6 @@
   "typescript.tsdk": "node_modules/typescript/lib",
   "workbench.editor.customLabels.patterns": {
     "**/src/app/**/page.tsx": "${dirname}_page.tsx"
-  }
+  },
+  "javascript.preferences.importModuleSpecifier": "non-relative"
 }

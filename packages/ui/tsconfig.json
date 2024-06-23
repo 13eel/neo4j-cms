@@ -5,10 +5,9 @@
     "forceConsistentCasingInFileNames": true,
     "jsx": "react-jsx",
     "tsBuildInfoFile": "node_modules/.cache/tsbuildinfo.json",
-    "baseUrl": "./src",
+    "baseUrl": ".",
     "paths": {
-      "@ui/*": ["./*"],
-      "@ui": ["index.ts"]
+      "~*": ["./src/index.ts"]
     }
   },
   "include": ["*.ts", "src", "."],

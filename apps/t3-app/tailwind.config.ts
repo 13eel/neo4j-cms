@@ -1,7 +1,7 @@
 import { type Config } from "tailwindcss";
 import { fontFamily } from "tailwindcss/defaultTheme";
 
-import UIConfig from "@acme/ui/tailwindConfig";
+import UIConfig from "@package/ui/tailwindConfig";
 
 export default {
   content: [...UIConfig.content, "./src/**/*.tsx"],

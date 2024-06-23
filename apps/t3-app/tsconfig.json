@@ -10,9 +10,8 @@
     /* Path Aliases */
     "baseUrl": ".",
     "paths": {
-      "~/*": ["./src/*"],
-      "@ui/*": ["../../packages/ui/src/*"],
-      "@ui": ["../../packages/ui/src/index.ts"]
+      "~*": ["./src/*", "../../packages/ui/src/index.ts"],
+      "~/ui": ["../../packages/ui/src/index.ts"]
     }
   },
   "include": [

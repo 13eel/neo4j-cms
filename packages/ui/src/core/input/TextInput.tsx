@@ -1,6 +1,6 @@
 import * as React from "react";
-import { Input } from "@ui/components/ui/input";
-import { cn } from "@ui/lib/utils";
+
+import { cn, Input } from "~ui";
 
 export type TextInputProps = Omit<
   React.InputHTMLAttributes<HTMLInputElement>,

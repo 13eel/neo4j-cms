@@ -23,7 +23,9 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <body className={`font-sans ${inter.variable}`}>
-        <TRPCReactProvider>{children}</TRPCReactProvider>
+        <TRPCReactProvider>
+          <main className="container mx-auto px-4">{children}</main>
+        </TRPCReactProvider>
       </body>
     </html>
   );
